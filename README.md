@@ -1,7 +1,6 @@
 # Django-LMS
 
 
-````markdown
 Django-LMS
 
 A simple Learning Management System built with Django.
@@ -14,7 +13,7 @@ For Windows
    ```bash
    uv venv .venv
    ```
-````
+
 
 2. Activate the virtual environment:
 
