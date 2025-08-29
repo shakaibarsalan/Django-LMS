@@ -2,13 +2,13 @@
 
 
 ````markdown
-# Django-LMS
+Django-LMS
 
 A simple Learning Management System built with Django.
 
-## Setup Instructions
+Setup Instructions
 
-### For Windows
+For Windows
 
 1. Create a virtual environment:
    ```bash
