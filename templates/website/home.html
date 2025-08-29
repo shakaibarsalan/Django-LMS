@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>you are in file home.html</h1>
+    <h2>Navigation Buttons</h2>
+
+    <a href="{% url 'about' %}" class="btn">About</a>
+    <a href="{% url 'contact' %}" class="btn">Contact</a>
+    {% comment %} <a href="{% url 'accounts' %}" class="btn">Accounts</a> {% endcomment %}
+    <a href="{% url 'enrollment' %}" class="btn">Enrollment</a>
+    <a href="{% url 'assignment' %}" class="btn">Assignment</a>
+    <a href="{% url 'programs' %}" class="btn">Programs</a>
+    <a href="{% url 'resources' %}" class="btn">Resources</a>
+    <a href="{% url 'auditLog' %}" class="btn">Audit Log</a>
+</body>
+</html>
